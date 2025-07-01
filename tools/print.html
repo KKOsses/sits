@@ -1,1 +1,355 @@
+<html>
+  <head>
+    <title> SITS บริการงานพิมพ์</title>
+  </head>
+  <body>
+<!-- Hero Section -->
+<section class="gradient-bg text-white py-20">
+    <div class="container mx-auto px-6 text-center">
+        <h1 class="text-5xl md:text-6xl font-bold mb-6">บริการงานพิมพ์</h1>
+        <p class="text-xl md:text-2xl mb-8 opacity-90">คุณภาพสูง • ราคาย่อมเยา • บริการรวดเร็ว</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <button onclick="scrollToServices()" class="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">
+                ดูบริการของเรา
+            </button>
+            <button onclick="scrollToContact()" class="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-purple-600 transition-colors">
+                ติดต่อเรา
+            </button>
+        </div>
+    </div>
+</section>
 
+<!-- Services Section -->
+<section id="services" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">บริการของเรา</h2>
+            <p class="text-xl text-gray-600">เราให้บริการงานพิมพ์ครบวงจร ด้วยเทคโนโลยีที่ทันสมัย</p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Service Card 1 -->
+            <div class="service-card bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                <div class="text-blue-500 mb-4">
+                    <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-semibold mb-3 text-gray-800">พิมพ์เอกสาร</h3>
+                <p class="text-gray-600 mb-4">พิมพ์เอกสารทุกประเภท ทั้งขาวดำและสี คุณภาพสูง ราคาประหยัด</p>
+                <ul class="text-sm text-gray-500 space-y-1">
+                    <li>• A4, A3, A5</li>
+                    <li>• ขาวดำ เริ่มต้น 1 บาท</li>
+                    <li>• สี เริ่มต้น 5 บาท</li>
+                </ul>
+            </div>
+
+            <!-- Service Card 2 -->
+            <div class="service-card bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                <div class="text-green-500 mb-4">
+                    <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12A6,6 0 0,0 12,18A6,6 0 0,0 18,12A6,6 0 0,0 12,6Z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-semibold mb-3 text-gray-800">พิมพ์สติกเกอร์</h3>
+                <p class="text-gray-600 mb-4">สติกเกอร์คุณภาพสูง กันน้ำ ทนทาน เหมาะสำหรับทุกการใช้งาน</p>
+                <ul class="text-sm text-gray-500 space-y-1">
+                    <li>• วัสดุกันน้ำ</li>
+                    <li>• ตัดตามรูปแบบ</li>
+                    <li>• สีสดใส คมชัด</li>
+                </ul>
+            </div>
+
+            <!-- Service Card 3 -->
+            <div class="service-card bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                <div class="text-purple-500 mb-4">
+                    <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19,19H5V5H19M19,3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M13.96,12.29L11.21,15.83L9.25,13.47L6.5,17H17.5L13.96,12.29Z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-semibold mb-3 text-gray-800">พิมพ์ภาพ</h3>
+                <p class="text-gray-600 mb-4">พิมพ์ภาพคุณภาพสูง ทุกขนาด สีสันสดใส คมชัดทุกรายละเอียด</p>
+                <ul class="text-sm text-gray-500 space-y-1">
+                    <li>• ขนาด 4x6 ถึง A3</li>
+                    <li>• กระดาษโฟโต้พรีเมียม</li>
+                    <li>• สีแม่นยำ คมชัด</li>
+                </ul>
+            </div>
+
+            <!-- Service Card 4 -->
+            <div class="service-card bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                <div class="text-red-500 mb-4">
+                    <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M19,5V19H5V5H19Z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-semibold mb-3 text-gray-800">นามบัตร</h3>
+                <p class="text-gray-600 mb-4">นามบัตรสวยงาม ดีไซน์เป็นมืออาชีพ สร้างความประทับใจ</p>
+                <ul class="text-sm text-gray-500 space-y-1">
+                    <li>• กระดาษคุณภาพสูง</li>
+                    <li>• ดีไซน์ฟรี</li>
+                    <li>• เคลือบเงา/ด้าน</li>
+                </ul>
+            </div>
+
+            <!-- Service Card 5 -->
+            <div class="service-card bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                <div class="text-yellow-500 mb-4">
+                    <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12,2L13.09,8.26L22,9L13.09,9.74L12,16L10.91,9.74L2,9L10.91,8.26L12,2Z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-semibold mb-3 text-gray-800">ป้ายโฆษณา</h3>
+                <p class="text-gray-600 mb-4">ป้ายโฆษณาขนาดใหญ่ สีสันสดใส ทนทานต่อสภาพอากาศ</p>
+                <ul class="text-sm text-gray-500 space-y-1">
+                    <li>• วัสดุกันน้ำ กันแดด</li>
+                    <li>• ขนาดตามต้องการ</li>
+                    <li>• ติดตั้งให้ฟรี</li>
+                </ul>
+            </div>
+
+            <!-- Service Card 6 -->
+            <div class="service-card bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                <div class="text-indigo-500 mb-4">
+                    <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M11,16.5L6.5,12L7.91,10.59L11,13.67L16.59,8.09L18,9.5L11,16.5Z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-semibold mb-3 text-gray-800">เข้าเล่ม</h3>
+                <p class="text-gray-600 mb-4">บริการเข้าเล่มเอกสาร รายงาน วิทยานิพนธ์ ด้วยความประณีต</p>
+                <ul class="text-sm text-gray-500 space-y-1">
+                    <li>• เข้าเล่มแบบต่างๆ</li>
+                    <li>• ปกแข็ง/ปกอ่อน</li>
+                    <li>• ตัดขอบเรียบร้อย</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-4xl font-bold text-gray-800 mb-6">เกี่ยวกับเรา</h2>
+                <p class="text-lg text-gray-600 mb-6">
+                    เราเป็นผู้เชี่ยวชาญด้านงานพิมพ์มาอย่างยาวนาน ด้วยประสบการณ์กว่า 15 ปี 
+                    เราให้บริการงานพิมพ์คุณภาพสูงด้วยเทคโนโลยีที่ทันสมัยและทีมงานมืออาชีพ
+                </p>
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">15+</div>
+                        <div class="text-gray-600">ปีประสบการณ์</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">10,000+</div>
+                        <div class="text-gray-600">ลูกค้าพึงพอใจ</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">24/7</div>
+                        <div class="text-gray-600">บริการออนไลน์</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-purple-600 mb-2">100%</div>
+                        <div class="text-gray-600">ความพึงพอใจ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="bg-gradient-to-br from-purple-400 to-blue-500 rounded-full w-80 h-80 mx-auto flex items-center justify-center">
+                    <svg class="w-32 h-32 text-white" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">ติดต่อเรา</h2>
+            <p class="text-xl text-gray-600">พร้อมให้บริการและตอบคำถามทุกเรื่อง</p>
+        </div>
+        
+        <div class="grid lg:grid-cols-2 gap-12">
+            <div>
+                <div class="space-y-8">
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-purple-100 p-3 rounded-full">
+                            <svg class="w-6 h-6 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22S19,14.25 19,9A7,7 0 0,0 12,2Z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">ที่อยู่</h3>
+                            <p class="text-gray-600">123 ถนนสุขุมวิท แขวงคลองเตย<br>เขตคลองเตย กรุงเทพฯ 10110</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-purple-100 p-3 rounded-full">
+                            <svg class="w-6 h-6 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">โทรศัพท์</h3>
+                            <p class="text-gray-600">02-123-4567<br>089-123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-purple-100 p-3 rounded-full">
+                            <svg class="w-6 h-6 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">อีเมล</h3>
+                            <p class="text-gray-600">info@printpro.com<br>support@printpro.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="bg-purple-100 p-3 rounded-full">
+                            <svg class="w-6 h-6 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">เวลาทำการ</h3>
+                            <p class="text-gray-600">จันทร์ - ศุกร์: 8:00 - 18:00<br>เสาร์ - อาทิตย์: 9:00 - 17:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-gray-50 p-8 rounded-xl">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6">ส่งข้อความหาเรา</h3>
+                <form class="space-y-6" onsubmit="handleSubmit(event)">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">ชื่อ-นามสกุล</label>
+                        <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">อีเมล</label>
+                        <input type="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">โทรศัพท์</label>
+                        <input type="tel" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">ข้อความ</label>
+                        <textarea rows="4" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-purple-600 text-white py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+                        ส่งข้อความ
+                    </button>
+                </form>
+                <div class="mt-4 text-center">
+                    <span class="text-sm text-gray-500 bg-yellow-100 px-3 py-1 rounded-full">🚧 Demo Form - ไม่ส่งข้อมูลจริง</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-12">
+    <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-4 gap-8">
+            <div>
+                <div class="flex items-center space-x-3 mb-4">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/>
+                    </svg>
+                    <h3 class="text-xl font-bold">PrintPro</h3>
+                </div>
+                <p class="text-gray-400">บริการงานพิมพ์คุณภาพสูง ด้วยเทคโนโลยีที่ทันสมัย และทีมงานมืออาชีพ</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-4">บริการ</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li>พิมพ์เอกสาร</li>
+                    <li>พิมพ์สติกเกอร์</li>
+                    <li>พิมพ์ภาพ</li>
+                    <li>นามบัตร</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-4">ข้อมูลบริษัท</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li>เกี่ยวกับเรา</li>
+                    <li>ข่าวสาร</li>
+                    <li>ร่วมงานกับเรา</li>
+                    <li>นโยบายความเป็นส่วนตัว</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-4">ติดตามเรา</h4>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.012.001z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+            <p>&copy; 2024 PrintPro. สงวนลิขสิทธิ์ทุกประการ</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    function scrollToServices() {
+        document.getElementById('services').scrollIntoView({ 
+            behavior: 'smooth' 
+        });
+    }
+
+    function scrollToContact() {
+        document.getElementById('contact').scrollIntoView({ 
+            behavior: 'smooth' 
+        });
+    }
+
+    function handleSubmit(event) {
+        event.preventDefault();
+        alert('ขอบคุณสำหรับข้อความของคุณ! เราจะติดต่อกลับโดยเร็วที่สุด\n\n(นี่เป็นเพียงตัวอย่าง - ไม่มีการส่งข้อมูลจริง)');
+        event.target.reset();
+    }
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+</script>
+
+    </body>
+  </html>
